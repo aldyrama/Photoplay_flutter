@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="channel">id.base.movie</string>
+    <string name="clientKey_vt">VT-client-BjJz_2lbJl5jHA5J</string>
+    <string name="clientKey_sb">SB-Mid-client-BIe8NUK4XtYR_woU</string>
+    <string name="merchantServerUrl">http://whizliz.stagingapps.net</string>
+</resources>

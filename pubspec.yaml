@@ -1,0 +1,62 @@
+name: BaseApp
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shimmer: ^1.1.1
+  url_launcher: ^5.5.0
+  package_info: ^0.4.1
+  hydrated_bloc: ^6.0.1
+  round_indicator: ^0.0.2
+  #  google_maps_flutter: ^0.5.31
+  tab_indicator_styler: ^1.0.0
+  cached_network_image: ^2.2.0+1
+  flutter_launcher_icons: ^0.7.5
+  liquid_pull_to_refresh: ^2.0.0
+  flutter_staggered_grid_view: ^0.3.2
+  get_it: ^5.0.0
+
+  # This is our modular
+  core:
+    path: core
+  shared:
+    path: shared
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: any
+  json_serializable: any
+
+flutter_icons:
+#  android: true
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/ic_app.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/json/
+
+  fonts:
+    - family: IBMPlexSans
+      fonts:
+        - asset: assets/fonts/IBMPlexSans-Regular.ttf
+        - asset: assets/fonts/IBMPlexSans-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/IBMPlexSans-Italic.ttf
+          style: italic
+        - asset: assets/fonts/IBMPlexSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/IBMPlexSans-SemiBold.ttf
+          weight: 600

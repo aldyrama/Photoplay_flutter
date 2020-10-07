@@ -1,0 +1,36 @@
+name: shared
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: any
+  get: ^3.4.6
+  intl:
+  shimmer: ^1.1.1
+  url_launcher: ^5.5.0
+  google_fonts: ^1.1.0
+  smooth_star_rating: ^1.0.3
+  cached_network_image: ^2.2.0+1
+  modal_bottom_sheet: ^0.2.0+1
+  lottie: ^0.6.0
+  toast: ^0.1.5
+
+  # This is our modular
+  core:
+    path: ../core
+  BaseApp:
+    path: ../../flutter_base_project
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:

@@ -1,0 +1,1 @@
+export 'detail_movie_banner.dart';

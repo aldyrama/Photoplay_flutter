@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>167341802874-d7m5u2s06i1get0c2dgk28devrcacme0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.167341802874-d7m5u2s06i1get0c2dgk28devrcacme0</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>167341802874-jiumb7amql8oiqur9ghnrrvohkus7ckf.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC-sJRsMATwwA_70TT8QnzPICpGqGASTi8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>167341802874</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>id.base.movie</string>
+	<key>PROJECT_ID</key>
+	<string>baseapp-b88a2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>baseapp-b88a2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:167341802874:ios:f704c17c64cb2bcc3842c3</string>
+	<key>DATABASE_URL</key>
+	<string>https://baseapp-b88a2.firebaseio.com</string>
+</dict>
+</plist>
